@@ -1,0 +1,169 @@
+:root {
+  --primary-color: #0b6fc7;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.p2 {
+  padding: 0.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  border-top: 0px;
+  min-height: 250px;
+}
+
+.w-md {
+  width: 800px;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.ql-container.ql-snow {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.ql-toolbar.ql-snow {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.primary {
+  background-color: var(--primary-color);
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: var(--primary-color);
+}
+
+#editor {
+  font-size: 15px;
+  font-family: 'Segoe UI';
+}
+
+#toolbar {
+  font-family: 'Segoe UI';
+}
+
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+  background-color: #044985;
+}
+
+.btn:focus,
+.btn-large:focus,
+.btn-small:focus,
+.btn-floating:focus {
+  background-color: #044985;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type='text']:not(.browser-default):focus:not([readonly]),
+input[type='password']:not(.browser-default):focus:not([readonly]),
+input[type='email']:not(.browser-default):focus:not([readonly]),
+input[type='url']:not(.browser-default):focus:not([readonly]),
+input[type='time']:not(.browser-default):focus:not([readonly]),
+input[type='date']:not(.browser-default):focus:not([readonly]),
+input[type='datetime']:not(.browser-default):focus:not([readonly]),
+input[type='datetime-local']:not(.browser-default):focus:not([readonly]),
+input[type='tel']:not(.browser-default):focus:not([readonly]),
+input[type='number']:not(.browser-default):focus:not([readonly]),
+input[type='search']:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid var(--primary-color);
+  -webkit-box-shadow: 0 1px 0 0 var(--primary-color);
+  box-shadow: 0 1px 0 0 var(--primary-color);
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type='text']:not(.browser-default):focus:not([readonly]) + label,
+input[type='password']:not(.browser-default):focus:not([readonly]) + label,
+input[type='email']:not(.browser-default):focus:not([readonly]) + label,
+input[type='url']:not(.browser-default):focus:not([readonly]) + label,
+input[type='time']:not(.browser-default):focus:not([readonly]) + label,
+input[type='date']:not(.browser-default):focus:not([readonly]) + label,
+input[type='datetime']:not(.browser-default):focus:not([readonly]) + label,
+input[type='datetime-local']:not(.browser-default):focus:not([readonly])
+  + label,
+input[type='tel']:not(.browser-default):focus:not([readonly]) + label,
+input[type='number']:not(.browser-default):focus:not([readonly]) + label,
+input[type='search']:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: var(--primary-color);
+}
+
+/* Set dropdown font-families */
+#toolbar .ql-font span[data-value='Montserrat']::before {
+  font-family: 'Montserrat';
+}
+
+#toolbar .ql-font span[data-label='Poppins']::before {
+  font-family: 'Poppins';
+}
+
+#toolbar .ql-font span[data-label='Raleway']::before {
+  font-family: 'Raleway';
+}
+
+#toolbar .ql-font span[data-label='Arial']::before {
+  font-family: 'Arial';
+}
+
+#toolbar .ql-font span[data-label='Segoe UI']::before {
+  font-family: 'Segoe UI';
+}
+
+/* Set content font-families */
+
+.ql-font-montserrat {
+  font-family: 'Montserrat';
+}
+
+.ql-font-poppins {
+  font-family: 'Poppins';
+}
+
+.ql-font-raleway {
+  font-family: 'Raleway';
+}
+
+.ql-font-arial {
+  font-family: 'Arial';
+}
+
+.ql-font-segoe {
+  font-family: 'Segoe UI';
+}
+
+.ql-snow .ql-editor h6 {
+  margin-top: 0.5rem;
+  font-size: 0.8em;
+}
